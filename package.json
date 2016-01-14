@@ -1,0 +1,23 @@
+{
+  "name": "transform-require",
+  "version": "0.0.0",
+  "description": "A node require hook for running browserify transforms",
+  "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
+  "main": "index.js",
+  "homepage": "https://github.com/rtsao/transform-require",
+  "repository": "git@github.com:rtsao/transform-require.git",
+  "bugs": "https://github.com/rtsao/transform-require/issues",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "dependencies": {
+    "exec-file-sync": "^2.0.1",
+    "multipipe": "^0.3.0",
+    "object-assign": "^4.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.4.0",
+    "through2": "^2.0.0"
+  },
+  "license": "MIT"
+}
