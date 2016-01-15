@@ -1,6 +1,6 @@
 {
   "name": "transform-require",
-  "version": "0.0.0",
+  "version": "0.1.0-alpha.0",
   "description": "A node require hook for running browserify transforms",
   "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
   "main": "index.js",
