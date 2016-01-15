@@ -46,6 +46,9 @@ function getPackage(filename, cb) {
 
 // -> fn(err, [ [ transformFn, transformOpts ] ])
 function getTransformers (cwd, opts) {
+  if (!opts) {
+    opts = {};
+  }
   var transforms = [].concat(opts.transform).filter(Boolean)
   return transforms.map(function (item) {
     // support [ 'brfs', {} ] and 'brfs'
