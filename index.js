@@ -2,7 +2,6 @@
 
 var execFileSync = require('exec-file-sync');
 var path = require('path');
-var process = require('process');
 
 var cwd = process.cwd();
 

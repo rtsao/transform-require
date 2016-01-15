@@ -1,4 +1,7 @@
 # transform-require
+
+[![build status][build-badge]][build-href]
+
 A node require hook for running browserify transforms
 
 *please note this is still highly experimental*
@@ -16,3 +19,6 @@ By default, `transform-require` ignores node_modules.
 
 ### known limitations
 * Unlike with browserify transforms, you must enumerate the file extensions for which the require hook will apply the transforms. (With browserify, all requires, regardless of extension are transformed by default)
+
+[build-badge]: https://travis-ci.org/rtsao/transform-require.svg?branch=master
+[build-href]: https://travis-ci.org/rtsao/transform-require
